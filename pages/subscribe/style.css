@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  overflow: auto;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+}
+button,
+a {
+  font-weight: 700;
+  cursor: pointer;
+  transition-property: font-size;
+  transition-duration: 0.5s;
+  text-decoration: none;
+  color: black;
+}
+.navOption:hover {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+nav {
+  display: flex;
+  margin: 40px 15px;
+  align-items: center;
+  justify-content: space-between;
+}
+nav img {
+  width: 281px;
+  height: 65px;
+}
+#logo {
+  font: 48px bold;
+}
+#navOptions {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  gap: 35px;
+}
+nav button {
+  border: none;
+  border-radius: 15px;
+  padding: 9px 32px;
+  color: #1c4701;
+  background: #7ed32166;
+}
+nav button:active {
+  background: #5d9c1966;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+}
+main section {
+  margin-bottom: 5%;
+}
+main section img {
+  width: 582px;
+}
+main h1 {
+  font-size: 40px;
+}
+main section {
+  display: flex;
+}
+main form div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+}
+main form button {
+  background: #7ed321;
+  border-radius: 10px;
+  border: none;
+  color: #1c4701;
+  padding: 10px 45px;
+}
+main form button:active {
+  background-color: #538d2f;
+}
+
+textarea {
+  resize: none;
+  height: 7em;
+}
+
+label {
+  display: inline-block;
+  width: 7em;
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+}
+.formInputDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+}
+.formInput {
+  color: #9f9f9f;
+  padding: 13px 12px;
+  border-radius: 7px;
+  border: 1px solid #9f9f9f;
+  width: 30em;
+}
